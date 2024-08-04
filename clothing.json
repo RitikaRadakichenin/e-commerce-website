@@ -1,0 +1,47 @@
+[
+    {
+        "id":"10",
+        "p_name": "Womens Shirt",
+        "price": 599.00
+    },
+    {
+       "id":"11",
+        "p_name": "Womens Kurta",
+        "price": 799.00
+    },
+    {
+        "id":"12",
+        "p_name": "Womens Anarkali",
+        "price": 1499.00 
+    },
+    {
+        "id":"13",
+        "p_name": "Womens Kurti",
+        "price": 699.00 
+    },
+    {
+        "id":"14",
+        "p_name": "Womens Pant",
+        "price": 1199.00 
+    },
+    {
+        "id":"15",
+        "p_name": "Womens Top",
+        "price": 899.00 
+    },
+    {
+        "id":"16",
+        "p_name": "Mens Shirt",
+        "price": 1299.00 
+    },
+    {
+        "id":"17",
+        "p_name": "Mens Jeans",
+        "price": 999.00 
+    },
+    {
+        "id":"18",
+        "p_name": "Mens Tshirt",
+        "price": 899.00 
+    }
+]

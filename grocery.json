@@ -1,0 +1,47 @@
+[
+    {
+        "id":"1",
+        "p_name": "Apple",
+        "price": 120.00
+    },
+    {
+       "id":"2",
+        "p_name": "Banana",
+        "price": 135.00 
+    },
+    {
+        "id":"3",
+        "p_name": "Mango",
+        "price": 97.00
+    },
+    {
+        "id":"4",
+        "p_name": "Avocado",
+        "price": 164.00 
+    },
+    {
+        "id":"5",
+        "p_name": "Orange",
+        "price": 75.00
+    },
+    {
+        "id":"6",
+        "p_name": "Carrot",
+        "price": 115.00 
+    },
+    {
+        "id":"7",
+        "p_name": "Brocoli",
+        "price": 123.00
+    },
+    {
+        "id":"8",
+        "p_name": "Onion",
+        "price": 47.00 
+    },
+    {
+        "id":"9",
+        "p_name": "Potato",
+        "price": 35.00 
+    }
+]

@@ -1,0 +1,150 @@
+<%- include("partials/header.ejs") %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div style="background-color: #DBAFA0 !important;" class="album py-5 bg-body-tertiary background">
+        <div class="container">
+          <form action="/add" method="post">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm ">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text><image href="/images/apple.png" x="0" y="0" width="100%" height="100%"></image></svg>
+                <div class="card-body">
+                  <p class="card-text">Apple - Red Delicious, 4 pcs Approx. 450 g - 500 g</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" name="choice" value="Apple" formaction="/add" formmethod="post" class="btn btn-sm btn-outline-secondary" style="color: #49243E;">ADD TO CART</button>
+                    </div>
+                    <small class="text-body-secondary price">₹120.00</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text><image href="/images/banana.png" x="0" y="0" width="100%" height="100%"></image></svg>
+                <div class="card-body">
+                  <p class="card-text">Banana - Robusta, 1 kg</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" name="choice" value="Banana" formaction="/add" formmethod="post" class="btn btn-sm btn-outline-secondary" style="color: #49243E;">ADD TO CART</button>
+                    </div>
+                    <small class="text-body-secondary price">₹135.00</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text><image href="/images/mango.png" x="0" y="0" width="100%" height="100%"></image></svg>
+                <div class="card-body">
+                  <p class="card-text">Mango - Banganpalli, 1 kg </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" name="choice" value="Mango" formaction="/add" formmethod="post" class="btn btn-sm btn-outline-secondary" style="color: #49243E;">ADD TO CART</button>
+                    </div>
+                    <small class="text-body-secondary price">₹97.00</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text><image href="/images/avocado.png" x="0" y="0" width="100%" height="100%"></image></svg>
+                <div class="card-body">
+                  <p class="card-text">Avocado (Loose), 1 kg</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" name="choice" value="Avocado" formaction="/add" formmethod="post" class="btn btn-sm btn-outline-secondary" style="color: #49243E;">ADD TO CART</button>
+                    </div>
+                    <small class="text-body-secondary price">₹164.00</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text><image href="/images/orange.png" x="0" y="0" width="100%" height="100%"></image></svg>
+                <div class="card-body">
+                  <p class="card-text">Orange - (Loose), 4 pcs (Approx. 600 g - 700 g)</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" name="choice" value="Orange" formaction="/add" formmethod="post" class="btn btn-sm btn-outline-secondary" style="color: #49243E;">ADD TO CART</button>
+                    </div>
+                    <small class="text-body-secondary price">₹75.00</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text><image href="/images/carrot.png" x="0" y="0" width="100%" height="100%"></image></svg>
+                <div class="card-body">
+                  <p class="card-text">Carrot - Organically Grown (Loose), 1 kg</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" name="choice" value="Carrot" formaction="/add" formmethod="post" class="btn btn-sm btn-outline-secondary" style="color: #49243E;">ADD TO CART</button>
+                    </div>
+                    <small class="text-body-secondary price">₹115.00</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text><image href="/images/brocoli.png" x="0" y="0" width="100%" height="100%"></image></svg>
+                <div class="card-body">
+                  <p class="card-text">Broccoli, 1 pc (Approx. 250g-500g)</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" name="choice" value="Brocoli" formaction="/add" formmethod="post" class="btn btn-sm btn-outline-secondary" style="color: #49243E;">ADD TO CART</button>
+                    </div>
+                    <small class="text-body-secondary price">₹123.00</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text><image href="/images/onion.png" x="0" y="0" width="100%" height="100%"></image></svg>
+                <div class="card-body">
+                  <p class="card-text">Onion - Organically Grown (Loose), 1 kg</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" name="choice" value="Onion" formaction="/add" formmethod="post" class="btn btn-sm btn-outline-secondary" style="color: #49243E;">ADD TO CART</button>
+                    </div>
+                    <small class="text-body-secondary price">₹47.00</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text><image href="/images/potato.png" x="0" y="0" width="100%" height="100%"></image></svg>
+                <div class="card-body">
+                  <p class="card-text">Potato - Organically Grown (Loose), 1 kg</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="submit" name="choice" value="Potato" formaction="/add" formmethod="post" class="btn btn-sm btn-outline-secondary" style="color: #49243E;">ADD TO CART</button>
+                    </div>
+                    <small class="text-body-secondary price">₹35.00</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </form>
+        </div>
+      </div>
+    
+</body>
+<%- include("partials/footer.ejs") %>
+</html>
